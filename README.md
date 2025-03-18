@@ -72,7 +72,7 @@ This will start the FastAPI application at `http://127.0.0.1:8000`.
 
 ## Endpoints
 
-- **GET /scrape/scrapy**: Scrapes data from Vainglory Game News using **Scrapy** and returns the result in JSON format.
+- **GET /scrape/scrapy**: Scrapes data from Vainglory Game News using **Scrapy** and save the result in JSON format.
 - **GET /scrape/selenium**: Scrapes data from Vainglory Game News using **Selenium** and returns the result in JSON format.
 
 Example of scraping data from Scrapy endpoint:
