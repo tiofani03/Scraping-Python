@@ -14,6 +14,7 @@ def get_selenium_data():
 
     logging.info("Setting up the chromedriver with options.")
 
+    ## change with your path
     service = Service(executable_path='/opt/homebrew/bin/chromedriver')
 
     try:
